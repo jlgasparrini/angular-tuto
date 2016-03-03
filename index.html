@@ -26,6 +26,28 @@
           </div>
         </div>
 
+        <h2>Mains</h2>
+        <div class="mains row" ng-repeat="main in mains">
+          <div class="item col-md-9">
+            <h3 class="name"> {{ main.name }} </h3>
+            <p class="description"> {{ main.description }} </p>
+          </div>
+          <div class="price col-md-3">
+            <p class="price"> {{ main.price | currency }} </p>
+          </div>
+        </div>
+
+        <h2>Extras</h2>
+        <div class="extras row" ng-repeat="extra in extras">
+          <div class="item col-md-9">
+            <h3 class="name"> {{ extra.name }} </h3>
+            <p class="description"> {{ extra.description }} </p>
+          </div>
+          <div class="price col-md-3">
+            <p class="price"> {{ extra.price | currency }} </p>
+          </div>
+        </div>
+
       </div>
     </div>
 
