@@ -1,2 +1,4 @@
-# angular-tuto
-Simple web app extracted from codecademy free course
+# Angular tuto
+Simple web app.
+
+Pizza planet menu
