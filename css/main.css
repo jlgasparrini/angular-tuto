@@ -19,7 +19,7 @@ body p {
     text-align: center;
     width: 140px;
     z-index: 10;
-    
+
 }
 
 .header h1 span {
@@ -75,4 +75,18 @@ h3 {
     font-style: normal;
     margin: 26px 0 5px;
     text-align: right;
+}
+
+.counters {
+    text-align: center;
+}
+
+.counters span {
+    background: #ffa800;
+    font-size: 20px;
+    width: 40px;
+}
+
+.counters span.count {
+    background: #fff;
 }
